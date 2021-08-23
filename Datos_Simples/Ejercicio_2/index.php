@@ -22,9 +22,9 @@
         $interes = $_POST["Interes"];
         $añosInversion = $_POST["Años"]; 
         
-        $interesAnual = ($inversion * $interes / 100)*12;
+        $interesAnual = ($inversion * $interes / 100);
         $totalInversion = $interesAnual * $añosInversion + $inversion;
-        echo "El total del capital obtenido sumando la inversion inicial de $$inversion mas los $añosInversion anbos de inversion a un interes anual del $interes% nos da un total de $$totalInversion";
+        echo "El total del capital obtenido sumando la inversion inicial de $$inversion mas los $añosInversion años de inversion a un interes anual del $interes% nos da un total de $$totalInversion";
     
     ?>
 </body>

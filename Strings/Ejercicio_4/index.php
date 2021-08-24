@@ -22,7 +22,6 @@
     $numeroAStr = strval($numero);
     echo "El numero que ingresaste es $numero y el número que ingresaste sin prefijo ni extension es " . substr($numeroAStr,2,-2);
 
-    
     ?>
 </body>
 </html>
